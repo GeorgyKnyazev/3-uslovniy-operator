@@ -10,7 +10,7 @@ namespace _3_uslovniy_operator
             int zoomStep = 7;
             int finalValue = 96;            
             
-            while (startingNumber <= 96)
+            while (startingNumber <= finalValue)
             {
                 Console.Write(startingNumber + " ");
                 startingNumber += zoomStep;
