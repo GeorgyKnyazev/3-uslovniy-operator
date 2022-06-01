@@ -8,8 +8,9 @@ namespace _3_uslovniy_operator
         {
             int startingNumber = 5;
             int zoomStep = 7;
+            int finalValue = 96;            
             
-            while (startingNumber < 100)
+            while (startingNumber <= 96)
             {
                 Console.Write(startingNumber + " ");
                 startingNumber += zoomStep;
